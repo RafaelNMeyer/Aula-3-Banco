@@ -4,8 +4,10 @@ import java.util.ArrayList;
 
 public class Banco {
 	int u = 0;
-	private ArrayList<ContaCorrente> cc = new ArrayList<ContaCorrente>();
-	private ArrayList<ContaPoupanca> cp = new ArrayList<ContaPoupanca>();
+	 ArrayList<ContaCorrente> cc = new ArrayList<ContaCorrente>();
+	 ArrayList<ContaPoupanca> cp = new ArrayList<ContaPoupanca>();
+	 ArrayList<Cliente> clientes = new ArrayList<Cliente>();
+	 ArrayList<Agencia> agencias = new ArrayList<Agencia>();	
 
 	public void addConta() {
 		cc.add(new ContaCorrente());
