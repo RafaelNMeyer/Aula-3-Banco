@@ -1,16 +1,13 @@
-package kmnbblj;
-
-
-
-
 
 public class ContaCorrente extends Conta{
-	private double limiteEspecial;
+	private double limiteEspecial = 200; // valor fixo
 	private boolean statusCheque;
 	
-	
-	
-	
+	public ContaCorrente (int num, boolean statCheq)
+	{
+		this.setNumero(num);
+		this.statusCheque = statCheq; 
+	}
 
 	public double getLimiteEspecial() {
 		return limiteEspecial;

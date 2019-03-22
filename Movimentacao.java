@@ -1,14 +1,17 @@
-package kmnbblj;
 
 public class Movimentacao {
 	
 	private String descricao;
+	private double valor;
+	
 	public Movimentacao(String descricao, double valor) {
 		super();
 		this.descricao = descricao;
 		this.valor = valor;
 	}
-	private double valor;
+	
+	public Movimentacao()
+	{}
 	
 	public String getDescricao() {
 		return descricao;
